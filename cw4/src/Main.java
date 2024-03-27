@@ -1,4 +1,3 @@
-
 public class Main {
     public static void main(String[] args) {
         Student s1 = new Student(
@@ -7,6 +6,9 @@ public class Main {
                 32108,
                 "s32108@pjwstk.edu.pl",
                 "Warszawa 1",
-                new double[]{3, 4, 5, 3, 2});
+                new double[]{3, 4, 5, 3, 5});
+
     }
-}
+
+    }
+

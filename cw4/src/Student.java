@@ -16,6 +16,11 @@ public class Student {
             this.adress = adress;
             this.grades= grades;
         }
+        public double calculateAverageGrade(){
 
-    }
+            System.out.println(this.grades.length);
+                    return 2;
+        }
+}
+
 

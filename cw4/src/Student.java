@@ -1,6 +1,5 @@
 
 public class Student {
-
         public String fname;
         public String lname;
         public int indexNumber;

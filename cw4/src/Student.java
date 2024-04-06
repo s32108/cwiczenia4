@@ -15,11 +15,19 @@ public class Student {
             this.adress = adress;
             this.grades= grades;
         }
-        public double calculateAverageGrade(){
-
-            System.out.println(this.grades.length);
-                    return 2;
+    public double AverageGrade(){
+        if(this.grades.length == 0) throw new IllegalArgumentException("Brak ocen");
+        else if(this.grades.length >20) throw new IllegalArgumentException("Za dużo ocen");
+        else{
+            double sum = 0;
+            for (int i = 0; i < this.grades.length; i++){
+                sum = sum + this.grades[i];
+            }
+            return sum / this.grades.length;
         }
+    }
+
 }
+
 
 
